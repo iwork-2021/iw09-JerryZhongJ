@@ -32,8 +32,8 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "animationStyle" : "basic",
-                                          "duration" : 1,
-                                          "emphasisAnimationType" : "flip",
+                                          "duration" : 1.7699999809265137,
+                                          "emphasisAnimationType" : "jiggle",
                                           "iterations" : 1,
                                           "target" : [
                                             "DBCD615D-E310-474B-8ED3-852782C13C6A"
@@ -55,7 +55,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "audioType" : "play",
-                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.squeak-toy-fx-02\/Squeak%20Toy%20FX%2002.caf",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.cork-pop-fx-01\/%E8%BD%AF%E6%9C%A8%E5%A1%9E%E6%8B%94%E5%87%BA%E6%95%88%E6%9E%9C01.caf",
                                           "loops" : false,
                                           "multiplePerformType" : "allow request",
                                           "target" : [
@@ -464,19 +464,19 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "angularCoefficient" : 1,
-                                          "duration" : 0.60000002384185791,
+                                          "duration" : 0.79980480670928955,
                                           "isTransformInitKeyPath" : true,
                                           "linearCoefficient" : 1,
                                           "location" : [
                                             0,
                                             0,
-                                            10
+                                            1
                                           ],
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "scale" : 1,
                                           "target" : [
-                                            "909198D5-C682-4D23-AADB-4E4A7683B99A"
+                                            "36454AE1-990B-4B98-AF81-7E880E35E4E4"
                                           ]
                                         },
                                         "name" : {
@@ -611,7 +611,7 @@
                                           "isTransformInitKeyPath" : true,
                                           "linearCoefficient" : 1,
                                           "location" : [
-                                            0.58663791418075562,
+                                            0,
                                             0,
                                             0
                                           ],
@@ -625,7 +625,7 @@
                                           "respectPhysics" : false,
                                           "scale" : 1,
                                           "target" : [
-                                            "909198D5-C682-4D23-AADB-4E4A7683B99A"
+                                            "36454AE1-990B-4B98-AF81-7E880E35E4E4"
                                           ]
                                         },
                                         "name" : {
@@ -774,7 +774,7 @@
                                           "respectPhysics" : false,
                                           "scale" : 1,
                                           "target" : [
-                                            "909198D5-C682-4D23-AADB-4E4A7683B99A"
+                                            "36454AE1-990B-4B98-AF81-7E880E35E4E4"
                                           ]
                                         },
                                         "name" : {
@@ -893,235 +893,417 @@
               "material" : "concrete",
               "overrides" : {
                 "children" : {
+                  "2B47BFD1-29FB-44A6-8170-CDCA3460F81B" : null,
                   "2D06DA3C-8780-4494-890E-4229DA86B8A3" : null,
-                  "7F197A0F-BDE6-45F4-91B4-9A066EBF00AD" : {
-                    "overrides" : {
-                      "children" : {
-                        "USDScene" : {
-                          "overrides" : {
-                            "arguments" : [
-                              [
-                                "includeSceneScaling",
-                                {
-                                  "typeName" : "Bool",
-                                  "value" : false
-                                }
-                              ],
-                              [
-                                "subpath",
-                                {
-                                  "typeName" : "String",
-                                  "value" : ""
-                                }
-                              ],
-                              [
-                                "url",
-                                {
-                                  "typeName" : "String",
-                                  "value" : "model:95f537f8ff5e9508cb86ed26ccb94ed0\/TankCockpit.usdz"
-                                }
-                              ],
-                              [
-                                "withDescendants",
-                                {
-                                  "typeName" : "Bool",
-                                  "value" : true
-                                }
-                              ]
-                            ],
-                            "factory" : {
-                              "identifier" : "com.apple.af.FileImportAssetFactory",
-                              "version" : "0.0"
-                            },
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "C24B46B0-36E2-4E2C-B415-C9ABEA9D4348"
-                                }
-                              ]
-                            ]
-                          },
-                          "transform" : {
-                            "matrix" : [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.af.Group",
-                        "version" : "0.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "DBCD615D-E310-474B-8ED3-852782C13C6A"
-                          }
-                        ],
-                        [
-                          "entityName",
-                          {
-                            "typeName" : "String",
-                            "value" : "Turret"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        0.019999595358967781,
-                        0,
-                        -0.00012714172771666199,
-                        0,
-                        0,
-                        0.019999999552965164,
-                        0,
-                        0,
-                        0.00012714172771666199,
-                        0,
-                        0.019999595358967781,
-                        0,
-                        -0.00025530136190354824,
-                        0.11399996280670166,
-                        -0.040269177407026291,
-                        1
-                      ]
-                    }
-                  },
-                  "84B43D4A-5286-4032-AF7F-BB92B1CF2A60" : {
-                    "overrides" : {
-                      "children" : {
-                        "USDScene" : {
-                          "overrides" : {
-                            "arguments" : [
-                              [
-                                "includeSceneScaling",
-                                {
-                                  "typeName" : "Bool",
-                                  "value" : false
-                                }
-                              ],
-                              [
-                                "subpath",
-                                {
-                                  "typeName" : "String",
-                                  "value" : ""
-                                }
-                              ],
-                              [
-                                "url",
-                                {
-                                  "typeName" : "String",
-                                  "value" : "model:e84c3e9d6aae2329c348fb4d00e2c782\/TankBase.usdz"
-                                }
-                              ],
-                              [
-                                "withDescendants",
-                                {
-                                  "typeName" : "Bool",
-                                  "value" : true
-                                }
-                              ]
-                            ],
-                            "factory" : {
-                              "identifier" : "com.apple.af.FileImportAssetFactory",
-                              "version" : "0.0"
-                            },
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "630BC46D-D52E-4D85-8D75-4012BBFD89D4"
-                                }
-                              ]
-                            ]
-                          },
-                          "transform" : {
-                            "matrix" : [
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1,
-                              0,
-                              0,
-                              0,
-                              0,
-                              1
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.af.Group",
-                        "version" : "0.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "909198D5-C682-4D23-AADB-4E4A7683B99A"
-                          }
-                        ],
-                        [
-                          "entityName",
-                          {
-                            "typeName" : "String",
-                            "value" : "Tank"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        0.019999999552965164,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0.019999999552965164,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0.019999999552965164,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ]
-                    }
-                  },
+                  "7F197A0F-BDE6-45F4-91B4-9A066EBF00AD" : null,
+                  "84B43D4A-5286-4032-AF7F-BB92B1CF2A60" : null,
                   "8043C24E-F587-45A0-A934-B31ACC71363B" : null,
-                  "B805D8F3-3798-4195-8D60-2885ED5BE9D7" : null
+                  "65243637-E44D-463A-BC79-8B56D0527574" : null,
+                  "B805D8F3-3798-4195-8D60-2885ED5BE9D7" : null,
+                  "BAA08F0F-6D02-4D2D-BC54-92292ED430A1" : {
+                    "overrides" : {
+                      "children" : {
+                        "2B47BFD1-29FB-44A6-8170-CDCA3460F81B" : {
+                          "overrides" : {
+                            "children" : {
+                              "USDScene" : {
+                                "overrides" : {
+                                  "arguments" : [
+                                    [
+                                      "includeSceneScaling",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ],
+                                    [
+                                      "subpath",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : ""
+                                      }
+                                    ],
+                                    [
+                                      "url",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "model:e84c3e9d6aae2329c348fb4d00e2c782\/TankBase.usdz"
+                                      }
+                                    ],
+                                    [
+                                      "withDescendants",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : true
+                                      }
+                                    ]
+                                  ],
+                                  "factory" : {
+                                    "identifier" : "com.apple.af.FileImportAssetFactory",
+                                    "version" : "0.0"
+                                  },
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "630BC46D-D52E-4D85-8D75-4012BBFD89D4"
+                                      }
+                                    ]
+                                  ]
+                                },
+                                "transform" : {
+                                  "matrix" : [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.af.Group",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "909198D5-C682-4D23-AADB-4E4A7683B99A"
+                                }
+                              ],
+                              [
+                                "entityName",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Tank"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.019999995827674866,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.019999995827674866,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.019999995827674866,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.99999994039535522
+                            ]
+                          }
+                        },
+                        "EACFB9EE-092B-4031-8629-D5FBBBD06BDE" : {
+                          "overrides" : {
+                            "children" : {
+                              "USDScene" : {
+                                "overrides" : {
+                                  "arguments" : [
+                                    [
+                                      "includeSceneScaling",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ],
+                                    [
+                                      "subpath",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : ""
+                                      }
+                                    ],
+                                    [
+                                      "url",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "model:95f537f8ff5e9508cb86ed26ccb94ed0\/TankCockpit.usdz"
+                                      }
+                                    ],
+                                    [
+                                      "withDescendants",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ]
+                                  ],
+                                  "children" : {
+                                    "TankCockpit" : {
+                                      "overrides" : {
+                                        "arguments" : [
+                                          [
+                                            "includeSceneScaling",
+                                            {
+                                              "typeName" : "Bool",
+                                              "value" : false
+                                            }
+                                          ],
+                                          [
+                                            "subpath",
+                                            {
+                                              "typeName" : "String",
+                                              "value" : "TankCockpit"
+                                            }
+                                          ],
+                                          [
+                                            "url",
+                                            {
+                                              "typeName" : "String",
+                                              "value" : "model:95f537f8ff5e9508cb86ed26ccb94ed0\/TankCockpit.usdz"
+                                            }
+                                          ],
+                                          [
+                                            "withDescendants",
+                                            {
+                                              "typeName" : "Bool",
+                                              "value" : false
+                                            }
+                                          ]
+                                        ],
+                                        "children" : {
+                                          "Cockpit" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "TankCockpit\/Cockpit"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:95f537f8ff5e9508cb86ed26ccb94ed0\/TankCockpit.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "90CB0D51-DD8A-4F3C-9A5F-AD8935A071F3"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "factory" : {
+                                          "identifier" : "com.apple.af.FileImportAssetFactory",
+                                          "version" : "0.0"
+                                        },
+                                        "runtimeAttributes" : [
+                                          [
+                                            "RuntimeIdentifier",
+                                            {
+                                              "typeName" : "UUID",
+                                              "value" : "50B980DA-C4EE-45F9-809C-9CFD14EA47B9"
+                                            }
+                                          ]
+                                        ]
+                                      },
+                                      "transform" : {
+                                        "matrix" : [
+                                          1,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "factory" : {
+                                    "identifier" : "com.apple.af.FileImportAssetFactory",
+                                    "version" : "0.0"
+                                  },
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "C24B46B0-36E2-4E2C-B415-C9ABEA9D4348"
+                                      }
+                                    ]
+                                  ]
+                                },
+                                "transform" : {
+                                  "matrix" : [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.af.Group",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "DBCD615D-E310-474B-8ED3-852782C13C6A"
+                                }
+                              ],
+                              [
+                                "entityName",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Turret"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.019999613985419273,
+                              0,
+                              -0.00012714197509922087,
+                              0,
+                              0,
+                              0.019999995827674866,
+                              0,
+                              0,
+                              0.00012714184413198382,
+                              0,
+                              0.019999591633677483,
+                              0,
+                              -0.00025530130369588733,
+                              0.11399994790554047,
+                              -0.040269169956445694,
+                              0.99999994039535522
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "36454AE1-990B-4B98-AF81-7E880E35E4E4"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.40564921498298645,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.40564921498298645,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.40564921498298645,
+                        0,
+                        0,
+                        4.6566134281889049e-10,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "EACFB9EE-092B-4031-8629-D5FBBBD06BDE" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -1138,21 +1320,21 @@
               "title" : "TinyToyTank",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.64221155643463135,
-                  3.4272665061507723e-07,
-                  -0.76652735471725464,
+                  0.15431147813796997,
+                  2.6822090148925781e-07,
+                  -0.98802220821380615,
                   0,
-                  -0.3656173050403595,
-                  0.87891489267349243,
-                  -0.30632102489471436,
+                  -0.49767026305198669,
+                  0.8638765811920166,
+                  -0.077726975083351135,
                   0,
-                  0.67371219396591187,
-                  0.476978600025177,
-                  0.5644494891166687,
+                  0.85352915525436401,
+                  0.50370341539382935,
+                  0.13330619037151337,
                   0,
-                  1.0985841751098633,
-                  0.67053890228271484,
-                  0.90666890144348145,
+                  1.5806012153625488,
+                  0.61790460348129272,
+                  0.24599131941795349,
                   1
                 ],
                 "sceneTransform" : [
